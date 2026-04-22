@@ -1,8 +1,14 @@
 # AI Image Generation via Kie.ai API (Nano Banana / PRO / Nano Banana 2)
 
-Production-ready Python functions for image generation and editing via Kie.ai API.
-The project is focused on building reliable AI integrations that can be used in bots, automation workflows and external platforms.
+Production-ready Python functions for AI image generation and editing via Kie.ai API.
 
+Designed for real-world integrations: Telegram bots, automation workflows and external platforms.
+
+---
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![AI](https://img.shields.io/badge/AI-Image%20Generation-purple)
+![Kie.ai](https://img.shields.io/badge/API-Kie.ai-green)
+![Automation](https://img.shields.io/badge/Automation-Workflows-orange)
 ---
 
 ## 📌 Overview
@@ -16,6 +22,18 @@ This case demonstrates the development of Python functions for working with Kie.
 The implemented solutions support both image generation and image editing scenarios and are designed for integration into real-world products.
 
 ---
+
+## 🚀 Key Features
+
+- Unified interface for image generation and editing  
+- Support for Nano Banana / PRO / Nano Banana 2  
+- Asynchronous task polling with timeout control  
+- Strict parameter validation (including tool-based rules)  
+- Structured and predictable API responses  
+- Production-ready architecture for integrations  
+
+---
+
 
 ## 🎯 Task
 
@@ -129,5 +147,34 @@ They are especially suitable for environments with strict packaging and runtime 
 
 The project resulted in a flexible and scalable integration layer for AI image generation and editing.
 
-It helps transform raw API capabilities into structured, reusable functions that are ready to be embedded into real products.
+---
 
+## 💎 Why this matters
+
+This project demonstrates practical experience in building real AI integrations:
+
+- working with external AI APIs  
+- handling asynchronous processing  
+- designing reusable function interfaces  
+- ensuring production-level reliability  
+
+It reflects the ability to turn raw AI capabilities into structured and usable solutions.
+
+---
+
+## 💡 Example Usage
+
+```python
+arguments = {
+    "prompt": "A cinematic sunset over mountains",
+    "tool": "image_generation",
+    "aspect_ratio": "16:9",
+    "resolution": "2K",
+    "output_format": "png"
+}
+
+result = nanobanana2_function_call_new(arguments)
+print(result)
+```
+
+It helps transform raw API capabilities into structured, reusable functions that are ready to be embedded into real products.
